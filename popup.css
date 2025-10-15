@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 16px;
+  min-width: 220px;
+}
+h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+button {
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #005fa3;
+}
+.tip {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 8px;
+}
